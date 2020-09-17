@@ -1,24 +1,3 @@
-@font-face {
-
-  font-family: "GameOfThrones";
-  src: url("../../assets/fonts/src_styles_fonts_GameofThrones.ttf");
-  src: url("../../assets/fonts/src_styles_fonts_GameofThrones.woff");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-@font-face {
-
-  font-family: "lato";
-  src: url("../../assets/fonts/lato-regular.ttf");
-  src: url("../../assets/fonts/lato-regular.woff");
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-}
-
-
 
 .c-backgroundImg {
   display: flex;
@@ -28,36 +7,27 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: relative;
-  background-position: 0% 0%;
+  background-position: center;
 
   &__caption {
+    display: flex;
+    text-align: center;
+    align-items: center;
     width: 100%;
     height: 172px;
     font-family: "GameofThrones";
-    font-size: 176px;
+    font-size: 150px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 176px;
+    line-height: 150px;
     letter-spacing: normal;
     color: #ffffff;
-    text-align: center;
-    align-items: center;
-    margin: 0px auto;
     position: fixed;
-    top: 2em;
+    top: 18rem;
   }
 
 }
 
-.Text-Style {
-  font-family: "lato";
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-}
+
 

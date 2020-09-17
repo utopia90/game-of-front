@@ -37,16 +37,14 @@ function App() {
                         </Route>
                         <Route path="/">
                             <HomePage />
+                            
                         </Route>
-                    </Switch>
-
-
-
-                    <Menu />
+                    </Switch> 
                 </div>
 
-
+                <Menu />
             </Router>
+            
         </body>
     )
 }

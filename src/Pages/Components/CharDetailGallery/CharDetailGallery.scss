@@ -4,15 +4,16 @@
     flex-direction: column;
     margin-top:20px;
     
+}
 
-    &__detail {
+.c-characters-detail {
 
         display: flex;
         flex-direction: column;
         margin-bottom: 52px;
     
 
-    }
+    
 
     &__img{
 
@@ -23,12 +24,13 @@
     &__caption{
 
         margin-top:30px;
-        font-size: 32px;
-
+        font-size: 20px;
+        color:  #ffffff;
     }
 
-
 }
+
+
 
 .character-live-detail {
 

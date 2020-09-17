@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import CharDetailGallery from '../Components/CharDetailGallery/CharDetailGallery';
+import { Link } from 'react-router-dom';
 
 export default function CharDetail() {
 
@@ -32,7 +33,10 @@ return (
 
 
     <div>
-       
+        <Link to="/personajes">
+            <button className="return-btn">Volver</button>
+        </Link>
+
         {characterDetail && <CharDetailGallery characters={characterDetail}  houses={logoHouse}/>} 
      
     </div>

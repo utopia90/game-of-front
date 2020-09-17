@@ -62,7 +62,7 @@ export default function CharDetailGallery(props) {
                             <p className="text-medium">Titulos</p>
                             <div className="character-live-detail__list">
                                 <SimpleBar style={{ maxHeight: 220 }} forceVisible="y" autoHide={false}>
-                                    {gotDetail.titles && gotDetail.titles.map((title, i) => <p className="text-small"> key={i}>{title}</p>)}
+                                    {gotDetail.titles && gotDetail.titles.map((title, i) => <p className="text-small" key={i}>{title}</p>)}
                                 </SimpleBar>
                             </div>
                         </div>
