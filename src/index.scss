@@ -1,0 +1,75 @@
+@import '~bootstrap/dist/css/bootstrap-grid.css';
+
+@font-face {
+
+    font-family: "GameOfThrones";
+    src: url("./assets/fonts/src_styles_fonts_GameofThrones.ttf");
+    src: url("./assets/fonts/src_styles_fonts_GameofThrones.woff");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+  
+    font-family: "lato";
+    src: url("./assets/fonts/lato-regular.ttf");
+    src: url("./assets/fonts/lato-regular.woff");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+
+  body {
+    margin: 0;
+    font-family: GameofThrones;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(31, 29, 29);
+  }
+  
+  
+  .text-medium{
+    font-size:24px;
+    font-family: GameofThrones;
+    color: #ffffff;
+  }
+  
+  .text-small{
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .text-decoration__none{
+    text-decoration: none;
+  }
+  .nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    font-family: GameofThrones;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 44px;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+  .nav-list__bottom{
+    display:inline;
+    padding-left:6px;
+    padding-right:6px;
+    color:  #ffffff;
+    margin: auto;
+  
+  }

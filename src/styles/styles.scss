@@ -1,0 +1,20 @@
+@font-face {
+
+    font-family: "GameOfThrones";
+    src: url("../assets/fonts/src_styles_fonts_GameofThrones.ttf");
+    src: url("../assets/fonts/src_styles_fonts_GameofThrones.woff");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+  @font-face {
+
+    font-family: "lato";
+    src: url("../assets/fonts/lato-regular.ttf");
+    src: url("../assets/fonts/lato-regular.woff");
+  }
+
+  body {
+    margin: 0;
+}

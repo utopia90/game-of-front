@@ -1,0 +1,45 @@
+.c-backgroundImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 1200px;
+  background-image: url(../../assets/img/ironthrone_homepage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: relative;
+  background-position: center;
+}
+
+.c-backgroundImg__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 172px;
+  font-family: "GameofThrones";
+  font-size: 176px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 150px;
+  letter-spacing: normal;
+  color: #ffffff;
+  position: fixed;
+  top: 18rem;
+  left: 37rem;
+  padding-top: 5px;
+}
+
+.thrones {
+  padding-top: 45px;
+}
+/*# sourceMappingURL=Homepage.css.map */

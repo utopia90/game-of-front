@@ -1,0 +1,49 @@
+.c-character-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    padding-top: 50px;
+  
+    &__item-container {
+     
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    &__item {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 16px 0;
+    }
+  
+    &__img {
+      
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+      object-position: 0% 0%;
+    }
+  
+  
+  }
+  
+  
+  .overlay {
+      width: 90%;
+      position: absolute;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      opacity:1;
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      text-align: center;
+   }
+   .img:hover .overlay {
+      opacity: 1;
+   }
+  

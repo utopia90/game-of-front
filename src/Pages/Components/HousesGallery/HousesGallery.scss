@@ -1,0 +1,30 @@
+
+
+* {
+  color: white;
+}
+
+.c-houses-gallery {
+  margin-left: 116px;
+  margin-top: 161px;
+  &__img-container {
+    width: 228px;
+    height: 297px;
+    margin-bottom: 100px;
+  }
+  &__caption {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-justify: center;
+    margin-left: 90px;
+  }
+}
+
+a {
+  text-decoration: none;
+}

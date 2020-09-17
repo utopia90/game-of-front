@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+
+}
+
+body {
+text-align: center;
+background-image: none;
+background-color: black;
+
+}  
+
+@import '~bootstrap/dist/css/bootstrap-grid.css';
+
+@font-face {
+
+  font-family: "GameOfThrones";
+  src: url("./assets/fonts/src_styles_fonts_GameofThrones.ttf");
+  src: url("./assets/fonts/src_styles_fonts_GameofThrones.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+
+  font-family: "lato";
+  src: url("./assets/fonts/lato-regular.ttf");
+  src: url("./assets/fonts/lato-regular.woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.return-btn {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  font-size: lato;
+  color: blanchedalmond;
+  background-color: white;
+}

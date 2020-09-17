@@ -1,0 +1,39 @@
+.c-house-detail-item {
+  padding-top: 140px;
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+    &__column {
+      padding-left: 100px;
+    }
+  }
+  &__title{
+    font-size: 34px;
+    padding-bottom: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  &__info {
+      display: flex;
+      flex-direction: column;
+  }
+  &__figure{
+            padding-bottom: 60px;
+            justify-content: center;
+            text-align: center;
+            justify-items: center;
+  } 
+  &__list {
+    list-style: none;
+
+    &__item {
+      justify-items: center;
+      padding-right: 30px;
+    }
+  }
+}
