@@ -10,13 +10,12 @@
   
     &__caption {
       display: flex;
-      flex-direction: column;
       text-align: center;
       align-items: center;
-      width: 50%;
+      width: 100%;
       height: 172px;
       font-family: "GameofThrones";
-      font-size: 176px;
+      font-size: 150px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -25,11 +24,8 @@
       color: #ffffff;
       position: fixed;
       top: 18rem;
-      left: 37rem;
-      padding-top: 5px;
+      
     }
   
-  }
-  .thrones {
-    padding-top: 45px;
-  }
+}
+  
